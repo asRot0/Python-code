@@ -4,17 +4,17 @@ import pyttsx3
 def convert_to_speech():
     text = text_input.get()
     if text:
-        engine.setProperty('rate', 190)
-        engine.setProperty('volume', 0.8)
-
-        voices = engine.getProperty('voices')
-        engine.setProperty('voice', voices[1].id)
-
         engine.say(text)
         engine.runAndWait()
 
 # Initialize the pyttsx3 engine
 engine = pyttsx3.init()
+
+engine.setProperty('rate', 190)
+engine.setProperty('volume', 0.8)
+
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[1].id)
 
 # Create the Tkinter window
 window = tk.Tk()
