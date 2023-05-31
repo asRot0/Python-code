@@ -1,0 +1,5 @@
+To convert text to speech in Python, we can use the pyttsx3 library.
+Install pyttsx3 library using pip: pip install pyttsx3
+
+To integrate text-to-speech functionality into a Tkinter GUI,
+we can combine the pyttsx3 library with Tkinter's widgets and event handling.
