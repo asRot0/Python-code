@@ -29,7 +29,6 @@ def start_listening():
 
 
 def convert_speech():
-
     recognizer = sr.Recognizer()
 
     with sr.Microphone() as source:
@@ -64,19 +63,19 @@ window.resizable(False, False)
 count = 0
 
 img = Image.open('icon.png')
-img = img.resize((60,50), Image.LANCZOS)
+img = img.resize((60, 50), Image.LANCZOS)
 icon_btn = ImageTk.PhotoImage(img)
 
 # Create a button to initiate speech-to-text conversion
 microphone_button = tk.Button(window, image=icon_btn, borderwidth=0, bg='#E2EAE7', command=start_listening)
 microphone_button.grid(row=0, column=0)
 
-side_text = tk.Text(window, height=5, width=15, bg='#DDE9E4')
-side_text.grid(row=1, column=0, rowspan=2)
-
 # Create a text entry field to display the converted text
 text_entry = tk.Text(window, height=10, width=40, bg='#DDE9E4')
 text_entry.grid(row=0, column=1, rowspan=2, padx=45, pady=2)
+
+side_text = tk.Text(window, height=5, width=15, bg='#DDE9E4')
+side_text.grid(row=1, column=0, rowspan=2)
 
 # Start the Tkinter event loop
 window.mainloop()
