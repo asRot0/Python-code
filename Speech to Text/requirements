@@ -16,7 +16,7 @@ use the Pillow Package (or PIL) in Python.
 
 Install the Pillow library using pip: pip install Pillow
 
-we have a single button labeled "Start Listening". When this button is pressed,
+we have a single button labeled "Start Listening" (icon). When this button is pressed,
 the start_listening() function is called. Inside this function,
 the listening message ("Listening...") is displayed in the side_text widget, and
 a new thread is created to perform the speech-to-text conversion

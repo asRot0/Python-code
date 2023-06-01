@@ -31,7 +31,7 @@ text_input = tk.Entry(window, width=40, bg='#E0E1E2')
 text_input.grid(row=0, column=1)
 
 # Create a button to convert text to speech
-convert_button = tk.Button(window, text="Convert to Speech",bg='#A29FA5', command=convert_to_speech)
+convert_button = tk.Button(window, text="Convert to Speech", bg='#A29FA5', command=convert_to_speech)
 convert_button.grid(row=1, column=1, sticky='e', pady=2)
 
 # Start the Tkinter event loop
