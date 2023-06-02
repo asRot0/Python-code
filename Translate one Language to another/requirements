@@ -1,0 +1,8 @@
+Using Tkinter's for GUI interface
+
+To translate the text from one language to another using Python,
+we are going to use a package named googletrans that has been called
+internally to the Google Translate API.
+
+Install the googletrans library using pip: pip install googletrans==4.0.0-rc1
+
