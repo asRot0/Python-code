@@ -102,5 +102,4 @@ dest_text.grid(row=1, column=1, columnspan=1, padx=1, pady=2)
 translate_button = tk.Button(window, text='Translate', command=start_translate, width=10, bg='#59EF94')
 translate_button.grid(row=2, column=0, padx=5, pady=5, sticky='w')
 
-
 window.mainloop()
