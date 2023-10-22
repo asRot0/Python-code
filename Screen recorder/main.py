@@ -14,7 +14,7 @@ filename = "Recording.avi"
 
 # Specify frames rate. We can choose any
 # value and experiment with it
-fps = 60.0
+fps = 30.0
 
 # Creating a VideoWriter object
 out = cv2.VideoWriter(filename, codec, fps, resolution)
