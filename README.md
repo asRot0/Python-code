@@ -16,7 +16,7 @@ Welcome to the Python Code repository, a collection of various Python projects, 
 This repository encompasses a variety of Python projects and code, covering different domains and purposes, including but not limited to:
 ##
 ### Screen Recorder:
-    This Python script captures the "screen" and records it as a video in AVI format. It uses the PyAutoGUI library 
+    This Python script captures the "screen" and `records` it as a video in AVI format. It uses the PyAutoGUI library 
     to capture screenshots, OpenCV (cv2) for video processing, and NumPy for array handling. The script allows you 
     to specify the resolution, video codec, frames per second (fps), and output file name. It creates a resizable 
     window to display the live recording, and you can stop the recording by pressing the 'q' key. 
