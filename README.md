@@ -3,7 +3,7 @@
 Welcome to the Python Code repository, a collection of various Python projects, scripts, and code snippets. Whether you're a beginner looking to learn Python or an experienced developer seeking useful Python code, you'll find a diverse range of projects and code samples to explore.
 
 ## Table of Contents |||||||||||||||||||||||||||||||||||||||
-
+- [IP Address info](https://github.com/asif7707/Python-code/tree/main/IP%20Address%20info)
 - [Screen recorder](https://github.com/asif7707/Python-code/tree/main/Screen%20recorder)
 - [Speech to Text](https://github.com/asif7707/Python-code/tree/main/Speech%20to%20Text)
 - [Text to Speech](https://github.com/asif7707/Python-code/tree/main/Text%20to%20Speech)
@@ -14,6 +14,12 @@ Welcome to the Python Code repository, a collection of various Python projects, 
 ## Project Highlights
 
 This repository encompasses a variety of Python projects and code, covering different domains and purposes, including but not limited to:
+##
+### IP Address info
+    This is a Python code snippet for an IP tracker. It uses the requests library to get the IP address
+    of the user and the ipapi.co API to get the IP information. The code then prints the IP information
+    to the console in a yellow color. The user can also choose to track another IP address by entering the
+    IP address in the console.
 ##
 ### Screen Recorder:
     This Python script captures the screen and records it as a video in AVI format. It uses the PyAutoGUI 
