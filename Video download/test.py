@@ -21,5 +21,5 @@ def download_instagram_video(video_url, output_path="downloads/"):
 
 # Example usage
 if __name__ == "__main__":
-    video_url = 'video url'
+    video_url = input("Enter Instagram Video URL: ")
     download_instagram_video(video_url)
